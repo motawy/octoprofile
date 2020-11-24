@@ -3,7 +3,7 @@ import NextHead from 'next/head';
 import PropTypes from 'prop-types';
 
 const defaultTitle = 'OctoProfile';
-const defaultDescription = 'A nicer look at your GitHub profile. With charts!';
+const defaultDescription = 'A nicer look at your GitHub profile with charts!';
 const defaultOGURL = 'https://octoprofile.bchiang7.now.sh';
 const defaultOGImage = 'https://octoprofile.bchiang7.now.sh/static/og.png';
 

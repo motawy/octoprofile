@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import Octicon, { Repo, Star, RepoForked, TriangleDown } from '@primer/octicons-react';
+import Octicon, {
+  RepoIcon,
+  StarIcon,
+  RepoForkedIcon,
+  TriangleDownIcon,
+} from '@primer/octicons-react';
 import FlipMove from 'react-flip-move';
 import { langColors } from '../utils';
 import ReposStyles from './styles/ReposStyles';
@@ -55,7 +60,7 @@ const Repos = ({ repoData }) => {
             <DropdownStyles active={dropdownOpen}>
               <button className="dropdown__button" onClick={() => toggleDropdown()}>
                 <label>{sortType}</label>
-                <Octicon icon={TriangleDown} />
+                <Octicon icon={TriangleDownIcon} />
               </button>
               <ul className="dropdown__list">
                 {sortTypes.map((type, i) => (
@@ -80,7 +85,7 @@ const Repos = ({ repoData }) => {
                     className="repo">
                     <div className="repo__top">
                       <div className="repo__name">
-                        <Octicon icon={Repo} />
+                        <Octicon icon={RepoIcon} />
                         <h3>{repo.name}</h3>
                       </div>
                       <p>{repo.description}</p>
@@ -95,11 +100,11 @@ const Repos = ({ repoData }) => {
                           {repo.language}
                         </span>
                         <span>
-                          <Octicon icon={Star} />
+                          <Octicon icon={StarIcon} />
                           {repo.stargazers_count.toLocaleString()}
                         </span>
                         <span>
-                          <Octicon icon={RepoForked} />
+                          <Octicon icon={RepoForkedIcon} />
                           {repo.forks.toLocaleString()}
                         </span>
                       </div>

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "motawy",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -24,28 +24,28 @@
     ]
   },
   "dependencies": {
-    "@primer/octicons-react": "^9.1.1",
-    "chart.js": "^2.8.0",
-    "gh-polyglot": "^2.3.2",
-    "next": "^9.0.5",
+    "@primer/octicons-react": "^11.0.0",
+    "chart.js": "^2.9.4",
+    "gh-polyglot": "^2.3.3",
+    "next": "^10.0.1",
     "prop-types": "^15.7.2",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-flip-move": "^3.0.3",
-    "styled-components": "^4.3.2"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-flip-move": "^3.0.4",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "@upstatement/eslint-config": "^0.4.2",
+    "@upstatement/eslint-config": "^0.4.3",
     "@upstatement/prettier-config": "^0.3.0",
-    "babel-eslint": "^10.0.3",
-    "babel-plugin-styled-components": "^1.10.6",
-    "eslint": "^6.4.0",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "husky": "^3.0.5",
-    "lint-staged": "^9.2.5",
-    "prettier": "^1.18.2",
-    "pretty-quick": "^1.11.1"
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.1",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.1.0"
   }
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Router from 'next/router';
-import Octicon, { MarkGithub } from '@primer/octicons-react';
+import Octicon, { MarkGithubIcon } from '@primer/octicons-react';
 import { Head } from '../components';
 import styled from 'styled-components';
 import { theme, mixins } from '../style';
@@ -70,7 +70,7 @@ const Home = () => {
               query: { id: username },
             });
           }}>
-          <Octicon icon={MarkGithub} size="large" />
+          <Octicon icon={MarkGithubIcon} size="large" />
           <label htmlFor="username">Find Your OctoProfile</label>
           <input name="username" type="text" onChange={handleChange} />
         </form>

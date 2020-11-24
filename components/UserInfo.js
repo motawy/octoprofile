@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Octicon, { Briefcase, Calendar, Location } from '@primer/octicons-react';
+import Octicon, { BriefcaseIcon, CalendarIcon, LocationIcon } from '@primer/octicons-react';
 import UserInfoStyles from './styles/UserInfoStyles';
 import { Section } from '../style';
 
@@ -27,21 +27,21 @@ const UserInfo = ({ userData }) => (
         <div className="info">
           {userData.company && (
             <span className="info__item">
-              <Octicon icon={Briefcase} size="small" />
+              <Octicon icon={BriefcaseIcon} size="small" />
               {userData.company}
             </span>
           )}
 
           {userData.location && (
             <span className="info__item">
-              <Octicon icon={Location} size="small" />
+              <Octicon icon={LocationIcon} size="small" />
               {userData.location}
             </span>
           )}
 
           {userData.created_at && (
             <span className="info__item">
-              <Octicon icon={Calendar} size="small" />
+              <Octicon icon={CalendarIcon} size="small" />
               Joined{' '}
               {new Date(userData.created_at).toLocaleDateString('en-US', {
                 month: 'long',

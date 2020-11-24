@@ -1,8 +1,6 @@
 # OctoProfile
 
-A nicer look at your GitHub Profile! With charts!
-
-![demo](https://raw.githubusercontent.com/bchiang7/octoprofile/master/static/og.png)
+A nicer look at your GitHub Profile with charts!
 
 Built with:
 
@@ -17,7 +15,7 @@ Built with:
 1. Install dependencies
 
    ```bash
-   yarn
+   npm install
    ```
 
 2. Fire up the server and watch files

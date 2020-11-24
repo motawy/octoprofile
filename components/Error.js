@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import Octicon, { MarkGithub } from '@primer/octicons-react';
+import Octicon, { MarkGithubIcon } from '@primer/octicons-react';
 import { Head, Corner } from '../components';
 import { theme, mixins } from '../style';
 const { colors } = theme;
@@ -35,7 +35,7 @@ const Error = ({ error }) => (
   <ErrorStyles>
     <Head title="OctoProfile" />
     <Corner />
-    <Octicon icon={MarkGithub} size="large" />
+    <Octicon icon={MarkGithubIcon} size="large" />
     <h1>OctoProfile</h1>
 
     {error && (
